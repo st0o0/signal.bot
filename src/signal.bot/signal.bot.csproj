@@ -18,6 +18,8 @@
     <ItemGroup>
         <None Include="../../README.md" Pack="true" PackagePath="\" />
         <None Include="../../LICENSE" Pack="true" PackagePath="\"/>
-        <None Include="../../.github/workflows/build-and-release.yml" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="JetBrains.Annotations" Version="2025.2.4" />
     </ItemGroup>
 </Project>
